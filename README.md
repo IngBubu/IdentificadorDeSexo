@@ -38,8 +38,10 @@ Este proyecto es un **clasificador de género** basado en imágenes. Utiliza un 
 1️⃣ Entrenar el Modelo
 Asegúrate de que las carpetas dataset/hombres y dataset/mujeres contengan suficientes imágenes para entrenar (recomendado: al menos 100 por clase).
 1. Activa el entorno virtual:
+    ```bash
     .\venv\Scripts\activate
 2. Ejecuta el script de entrenamiento:
+    ``bash
     python scripts/train.py
 3. El modelo entrenado se guardará automáticamente en models/gender_classifier.h5.
 
@@ -49,11 +51,13 @@ Asegúrate de que las carpetas dataset/hombres y dataset/mujeres contengan sufic
 2. Proporciona la ruta de la imagen a clasificar:
     Ingresa la ruta de la imagen que deseas clasificar: dataset/random/prueba.jpg
 3. Verás la predicción en la terminal:
+    ```bash
     Predicción: Mujer
 
 3️⃣ Predicciones en Tiempo Real (Cámara)
 1. Asegúrate de que tu cámara esté conectada.
 2. Ejecuta el script de predicción con cámara
+    ```bash
     python scripts/webcam_predict.py
 3. Una ventana aparecerá mostrando el video en tiempo real y la predicción ("Hombre" o "Mujer") sobre cada cuadro.
 4. Presiona q para salir.
@@ -63,6 +67,7 @@ Si tienes una carpeta con imágenes aleatorias:
 
 1. Usa un script como batch_predict.py (si lo configuraste).
 2. Ejecuta el script y proporciona la ruta de la carpeta:
+    ```bash
     python scripts/batch_predict.py
 3. Clasificará todas las imágenes en la carpeta y mostrará los resultados.
 

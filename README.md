@@ -10,24 +10,6 @@ Este proyecto es un **clasificador de género** basado en imágenes. Utiliza un 
 - **Soporte para múltiples formatos**: Compatible con imágenes en **JPEG**, **PNG**, **BMP**, **GIF**, entre otros.
 - **Fácil de Usar**: Scripts simples y personalizables para entrenar y probar el modelo.
 
-## 📂 Estructura del Proyecto
-
-IdentificadorDeSexo/
-├── dataset/                 # Contiene las imágenes para entrenamiento y validación
-│   ├── hombres/             # Imágenes de la clase "Hombre"
-│   ├── mujeres/             # Imágenes de la clase "Mujer"
-│   └── random/              # Carpeta opcional para imágenes de prueba adicionales
-├── models/                  # Carpeta para almacenar el modelo entrenado
-│   └── gender_classifier.h5 # Modelo guardado después del entrenamiento
-├── scripts/                 # Carpeta con los scripts principales
-│   ├── train.py             # Script para entrenar el modelo
-│   ├── predict.py           # Script para clasificar una sola imagen
-│   └── webcam_predict.py    # Script para clasificar en tiempo real usando la cámara
-├── venv/                    # Entorno virtual para gestionar dependencias (opcional pero recomendado)
-├── requirements.txt         # Archivo con las dependencias necesarias para el proyecto
-└── README.md                # Archivo README con toda la información del proyecto
-
-
 ## 🛠️ Requisitos
 
 1. **Python 3.9 o superior**.

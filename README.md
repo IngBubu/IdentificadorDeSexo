@@ -10,6 +10,10 @@ Este proyecto es un **clasificador de género** basado en imágenes. Utiliza un 
 - **Soporte para múltiples formatos**: Compatible con imágenes en **JPEG**, **PNG**, **BMP**, **GIF**, entre otros.
 - **Fácil de Usar**: Scripts simples y personalizables para entrenar y probar el modelo.
 
+## 📂 Estructura Del Proyecto 
+
+![Captura de pantalla del proyecto](assets/EstructuraDelProyecto.png)
+
 ## 🛠️ Requisitos
 
 1. **Python 3.9 o superior**.

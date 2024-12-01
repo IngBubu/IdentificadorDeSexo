@@ -1,0 +1,12 @@
+
+venv/
+
+models/*.h5
+
+dataset/
+
+*.pyc
+__pycache__/
+
+.vscode/
+.idea/
